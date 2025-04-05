@@ -1,5 +1,32 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: #dfdfdf;
+    margin: 0 auto;
+}
+
+.container{
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+}
+h1,h2{
+    margin: 10px 0;
+}
+
+button{
+    border-radius: 5px;
+    color: black;
+    margin-top: 30px;
+    background-color: #66ff66;
+}
+
+button:hover{
+    background-color: #00b300;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+    box-shadow: 0 0 10px rgba(48, 186, 94, 0.8);
 }

@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-
+    <title>Excuse Generator</title>
+    <link rel="stylesheet" type="text/css" href="index.html">
+    <script src="https://kit.fontawesome.com/8e150c0be4.js" crossorigin="anonymous"></script>
     <!-- Fontawesome is our recomended library for icons -->
     <link
       rel="stylesheet"
@@ -16,19 +17,13 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
-    </div>
-
+     <div class="container">
+      <h1>OMG! you will not believe me but...</h1>
+      <h2 id='perfectExcuse'></h2>
+      <button id="generateBtn">
+        <i class="fas fa-sync-alt"></i> Generate New Excuse
+      </button>
+     </div>
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>
   </body>
